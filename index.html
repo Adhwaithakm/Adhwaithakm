@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<!-- Mobile Specific Meta -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="style/index.css">
+
+	<link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+	<title>Tokio NFT</title>
+</head>
+<body>
+
+	<main >
+		<nav class="navbar">
+			<div class="container">
+				<div class="logo">
+					<img src="images/logo-mask.png">
+				</div>
+				<div class="nav-links web">
+					<ul>
+						<li><a href="#home">Home</a></li>
+						<li><a href="#nft">NFT Marketplace</a></li>
+						<li><a href="#tokenomics">Tokenomics</a></li>
+						<li><a href="#roadmap">Roadmap</a></li>
+						<li><a href="whitepaper.html">Whitepaper</a></li>
+					</ul>
+				</div>
+				<div class="st-burger-icon-container mobile">
+				  <div class="st-burger-icon st-burger-icon--medium">
+				    <span></span>
+				  </div>
+				</div>
+
+				
+			</div>
+		</nav>
+
+		<div class="mobile-nav mobile">
+
+			<div class="nav-links-mobile">
+					<ul>
+						<li><a href="#home">Home</a></li>
+						<li><a href="#nft">NFT Marketplace</a></li>
+						<li><a href="#tokenomics">Tokenomics</a></li>
+						<li><a href="#roadmap">Roadmap</a></li>
+						<li><a href="whitepaper.html">Whitepaper</a></li>
+					</ul>
+			</div>
+
+			<div class="social-mobile">
+				<div class="social-icon socialIconOne">
+				<a href="https://www.instagram.com/tokio_nft/"><i class="uil uil-instagram"></i></a>
+				</div>
+				<div class="social-icon socialIconTwo">
+					<a href="https://twitter.com/TokioNft"><i class="uil uil-twitter-alt"></i></a>
+				</div>
+				<div class="social-icon socialIconThree">
+					<a href="https://t.me/TokioNFTofficial"><i class="uil uil-telegram-alt"></i></a>
+				</div>
+			</div>
+
+			
+
+
+		</div>
+
+		<div class="home" id="home">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6 col-12">
+						<div class="home-content">
+							<div class="hero-image">
+								<img src="images/hero-image.png">
+							</div>
+							<p class="home-text">TOKIO NFT is The NFT marketplace that has accumulated a unique set of products and services relevant to artists, digital art</p>
+							<div class="home-btns">
+								<a href="https://pancakeswap.finance/swap#/swap" class="home-btn home-btn-clr">buy on pancakeswap</a>
+								<a href="https://poocoin.app/" class="home-btn">live chart</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6  col-12 video">
+						<div class="video-wrapper">
+							<div class="video-container" id="video-container">
+								<video onclick="playPause();"  id="video" preload="metadata" >
+									<source src="./tokionft.mp4" type="video/mp4">
+								</video>
+
+								<div class="play-button-wrapper">
+									<div title="Play video" class="play-gif" id="circle-play-b">
+										<!-- SVG Play Button -->
+										<div class="play-btn">
+											<i class="bi bi-play-fill"></i>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="social-icons web">
+			<div class="social-icon socialIconOne">
+				<a href="https://instagram.com/tokio_nft?utm_medium=copy_link"><i class="uil uil-instagram"></i></a>
+			</div>
+			<div class="social-icon socialIconTwo">
+				<a href="https://twitter.com/TokioNft"><i class="uil uil-twitter-alt"></i></a>
+			</div>
+			<div class="social-icon socialIconThree">
+				<a href="https://t.me/TokioNFTofficial"><i class="uil uil-telegram-alt"></i></a>
+			</div>
+		</div>
+
+		<div class="container" id="nft">
+			<div class="col-12">
+				<div class="main-title">
+					<h2>NFT Marketplace</h2>
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-lg-3 col-md-4 col-12" >
+					<div class="nft-card">
+						<div class="card-cover">
+							<img src="images/nft01.png">
+						</div>
+						<h3 class="card-title">
+							Classic
+						</h3>
+						<div class="card-info">
+							<div class="card-price">
+								<span>Price</span>
+								<span>Coming Soon</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 col-12" >
+					<div class="nft-card">
+						<div class="card-cover">
+							<img src="images/nft02.png">
+						</div>
+						<h3 class="card-title">
+							Rare
+						</h3>
+						<div class="card-info">
+							<div class="card-price">
+								<span>Price</span>
+								<span>Coming Soon</span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-12" >
+					<div class="nft-card">
+						<div class="card-cover">
+							<img src="images/nft03.jpg">
+						</div>
+						<h3 class="card-title">
+							Legendary
+						</h3>
+						<div class="card-info">
+							<div class="card-price">
+								<span>Price</span>
+								<span>Coming Soon</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-12" id="tokenomics">
+				<div class="main-title">
+					<h2>Tokenomics</h2>
+				</div>
+			</div>
+
+			<div class="graph" id="chart"></div>
+
+
+			<div class="col-12" id="roadmap">
+				<div class="main-title">
+					<h2>Roadmap</h2>
+				</div>
+			</div>
+				<div class="row roadmap">
+					<div class="col-lg-4 col-md-6">
+						<div class="roadmap-div">
+							<div class="roadmap-div-head">
+								Stage 1
+							</div>
+							<div class="roadmap-div-content">
+									<p>Project presentation</p>
+									<p>1000 telegram members</p>
+									<p>Website launch</p>
+									<p>Pinksale presale</p>
+									<p>White paper release</p>
+									<p>Pancakeswap launching</p>
+									<p>Private sale</p>
+									<p>$1M market cap</p>
+									<p>Marketing push</p>
+								
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="roadmap-div">
+							<div class="roadmap-div-head">
+								Stage 2
+							</div>
+							<div class="roadmap-div-content">
+									<p>5000 Telegram members</p>
+									<p>NFTS presentation</p>
+									<p>Social media marketing</p>
+									<p>NFT sale</p>
+									<p>Coingecko listing</p>
+									<p>Tokio swap</p>
+									<p>CMC listing</p>
+									<p>Stake and farm function</p>
+									<p>Contract audit</p>
+								
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-4 col-md-6">
+						<div class="roadmap-div">
+							<div class="roadmap-div-head">
+								Stage 3
+							</div>
+							<div class="roadmap-div-content ">
+									<p>15k members on Telegram</p>
+									<p>Release NFT market place</p>
+									<p>Tokio merchandising</p>
+									<p>Binance NFT alliance</p>
+									<p>10k holders</p>
+									<p>Global marketing push</p>
+									<p>Exchange listing</p>
+									<p>Game launching</p>
+									<p>Start game development</p>
+									<p>New updates soon</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container" id="audit">
+			<div class="neon"><b>NFT <span>Marketplace </span>Coming <span>Soon</span></b></div>
+		</div>
+
+		<div class="footer">
+			<p>Contact Us : <a href="mailto:tokionft9@gmail.com">tokionft9@gmail.com</a></p>
+		</div>
+
+
+
+
+
+
+
+	
+
+
+		
+	</main>
+	<div class="loading" id="loading">
+			<div>
+				<div class="loading-logo">
+					<img src="images/logo-mask.png">
+				</div>
+				<div class="loader">
+	  				<div class="loaderBar"></div>
+				</div>
+			</div>
+		</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
